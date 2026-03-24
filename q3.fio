@@ -1,0 +1,15 @@
+[global]
+filename=testfile.dat
+thread=1
+ioengine=windowsaio
+bs=4k
+size=64m
+direct=1
+stonewall
+
+[forward_write]
+rw=write
+
+[backward_write]
+rw=write
+ba=1
