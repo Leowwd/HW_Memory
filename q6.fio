@@ -2,14 +2,13 @@
 filename=D:\testfile.dat
 thread=1
 ioengine=windowsaio
-bs=4k
-size=64m
+size=256m
 direct=1
+rw=read
 stonewall
 
-[forward_write]
-rw=write
+[read_4k]
+bs=4k
 
-[backward_write]
-rw=write
-ba=1
+[read_1k]
+bs=1k

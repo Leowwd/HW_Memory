@@ -1,9 +1,9 @@
 [global]
-filename=testfile.dat
+filename=D:\testfile.dat
 thread=1
 ioengine=windowsaio
 bs=4k
-size=1g
+size=64m
 direct=1
 stonewall
 

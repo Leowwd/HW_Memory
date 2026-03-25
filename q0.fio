@@ -1,5 +1,5 @@
 [global]
-filename=testfile.dat
+filename=D:\testfile.dat
 thread=1
 ioengine=windowsaio
 bs=4k

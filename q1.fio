@@ -1,5 +1,5 @@
 [global]
-filename=testfile.dat
+filename=D:\fio_test_ssd.dat
 thread=1
 ioengine=windowsaio
 bs=4k
