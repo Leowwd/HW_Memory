@@ -1,5 +1,5 @@
 [global]
-filename=D:\testfile.dat
+filename=testfile.dat
 bs=1m
 size=1g
 rw=read
